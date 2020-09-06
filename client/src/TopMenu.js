@@ -11,15 +11,19 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
+  // root: {
+  //   background: `#0e3b47`,
+  //   flexGrow: 1,
+  // },
   menuButton: {
+    background:`#0e3b47`,
     marginRight: theme.spacing(2),
   },
   title: {
+    background:`#0e3b47`,
     flexGrow: 1,
   },
 }));

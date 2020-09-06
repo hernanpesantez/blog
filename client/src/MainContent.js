@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
   toolbar: theme.mixins.toolbar,
   title: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: '#0e3b47',
     padding: theme.spacing(3),
   },
   content: {
@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(3),
   },
   fullWidth: {
-    width: '100%',
+    // width: '100%',
   },
 }));
 
@@ -27,7 +27,7 @@ function MainContent() {
       <main className={classes.fullWidth}>
         <div className={classes.toolbar} />
         <div className={classes.title}>
-          <Typography variant='h6'>Title</Typography>
+          <Typography variant='h5'>Title</Typography>
         </div>
         <div className={classes.content}>
           <Typography paragraph>

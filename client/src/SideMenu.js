@@ -11,22 +11,25 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Avatar } from '@material-ui/core';
 import { Grid } from '@material-ui/core';
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 const useStyles = makeStyles(theme => ({
   drawer: {
-    width: drawerWidth,          
+    // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+    width: drawerWidth,   
+    overflowX:'hiden',    
     flexShrink: 0,
   },
   drawerPaper: {
     width: drawerWidth,
-    backgroundImage: `linear-gradient(#cfd9df,#e2ebf0)`,
+    backgroundImage:'linear-gradient(0.60turn, #00040a,#043442 , #041d42)',
     color: 'grey',
   },
   bigAvatar: {
+    // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
     margin: 30,
-    width: 100,
-    height: 100,
+    width: 150,
+    height: 150,
   },
 }));
 
@@ -47,7 +50,7 @@ function SideMenu() {
       >
         <Grid container justify='center' alignItems='center'>
           <Avatar
-            src='/home/hernan/Desktop/PROJECTS/blog/client/public/logo512.png'
+            src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/23754698_10213673844297141_8403857353441778332_n.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_ohc=z6YelpIziiIAX8BS9E2&_nc_ht=scontent-lga3-1.xx&oh=9bbdefcf4d2ce18b5e0a44f35b25a55d&oe=5F7CBCD2'
             className={classes.bigAvatar}
           />
         </Grid>
